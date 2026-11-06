@@ -13,5 +13,8 @@ https://github.com/breathtiger/taipeitravel202611
 3. 建立並切換至 `main` 分支。
 4. 暫存所有檔案、生成 Commit 並推送到遠端。 測試
 
+## 發布github page 網址
+https://breathtiger.github.io/taipeitravel202611/
+
 
 
