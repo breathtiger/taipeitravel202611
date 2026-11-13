@@ -41,11 +41,11 @@
           <a class="nav-link" href="#booking">照顧日韓深度行程</a>
         </li>
       </ul>
-      <a class="btn btnstyle btn-gold btn-nav" href="#booking">免費預約規劃</a>
+      <a class="btn btnstyle btn-gold btn-nav" href="#booking" onclick="return gtag_report_conversion(this.href);">免費預約規劃</a>
     </div>
   </nav></header>
   <main id="top">
-    <section class="hero d-flex align-items-center"><div class="hero-background"></div><div class="container position-relative"><div class="hero-copy"><p class="eyebrow">JAPAN TAILOR-MADE TRAVEL</p><h1>別再把珍貴的假期，<br>浪費在行軍般的疲憊行程裡！</h1><p class="hero-lead">為您與最愛的人，量身打造有溫度的日韓客製旅行</p><a href="#booking" class="btn btnstyle btn-gold btn-hero">限時免費｜預約專屬旅遊顧問 <span aria-hidden="true">›</span></a></div></div></section>
+    <section class="hero d-flex align-items-center"><div class="hero-background"></div><div class="container position-relative"><div class="hero-copy"><p class="eyebrow">JAPAN TAILOR-MADE TRAVEL</p><h1>別再把珍貴的假期，<br>浪費在行軍般的疲憊行程裡！</h1><p class="hero-lead">為您與最愛的人，量身打造有溫度的日韓客製旅行</p><a href="#booking" class="btn btnstyle btn-gold btn-hero" onclick="return gtag_report_conversion(this.href);">限時免費｜預約專屬旅遊顧問 <span aria-hidden="true">›</span></a></div></div></section>
     <section class="pain-points section-pad" id="why"><div class="container"><h2 class="section-title"><span></span>本來想放鬆，行前做功課卻比上班還累？<span></span></h2><div class="row g-3 g-lg-4 mt-3"><div class="col-6 col-lg-3"><article class="pain-card"><div class="line-icon">⌁</div><h3>景點太多不知道怎麼排</h3><p>做功課耗費又傷腦筋</p></article></div><div class="col-6 col-lg-3"><article class="pain-card"><div class="line-icon">◷</div><h3>交通複雜轉乘麻煩</h3><p>浪費時間又不便</p></article></div><div class="col-6 col-lg-3"><article class="pain-card"><div class="line-icon">▣</div><h3>預算難抓超容易爆</h3><p>隱藏花費一堆</p></article></div><div class="col-6 col-lg-3"><article class="pain-card"><div class="line-icon">▢</div><h3>行程太緊沒時間休息</h3><p>回國更累</p></article></div></div><a class="scroll-dot" href="#service" aria-label="前往客製規劃服務">⌄</a></div></section>
     <section class="service section-pad" id="service"><div class="container"><h2 class="section-title"><span></span>全包式客製規劃服務<span></span></h2><div class="row mt-4 text-center service-list"><div class="col-md-4 service-item"><div class="round-icon">♡</div><p class="en-title">WHY</p><h3>讓旅行更有溫度</h3><p>我們在乎您的需求，<br>一步一腳印值得回憶。</p></div><div class="col-md-4 service-item"><div class="round-icon">♧</div><p class="en-title">HOW</p><h3>一對一量身打造</h3><p>旅遊顧問深入了解，<br>打造專屬於您的完美行程。</p></div><div class="col-md-4 service-item"><div class="round-icon">⌖</div><p class="en-title">WHAT</p><h3>日韓深度旅遊</h3><p>精選在地體驗與特色住宿，<br>玩得更深入、更有感。</p></div></div></div></section>
     <section class="plans section-pad"><div class="container"><h2 class="section-title"><span></span>量身打造，滿足不同旅遊需求<span></span></h2><div class="row g-4 mt-2"><div class="col-md-4"><article class="plan-card"><img src="img/shutterstock_727279162-min.jpeg" alt="櫻花季情侶旅行"><div class="plan-body"><h3>小資／蜜月</h3><ul><li>高 CP 值玩法，質感不打折</li><li>浪漫行程，留下美好回憶</li></ul><a href="#booking" class="btn btn-gold btn-card">了解更多 <span>›</span></a></div></article></div><div class="col-md-4"><article class="plan-card"><img src="img/shutterstock_524061637.jpeg" alt="適合家庭的悠閒日本旅行"><div class="plan-body"><h3>小家庭／樂齡</h3><ul><li>輕鬆悠閒好安排，大人小孩都開心</li><li>貼心行程設計，長輩也安心</li></ul><a href="#booking" class="btn btn-gold btn-card">了解更多 <span>›</span></a></div></article></div><div class="col-md-4"><article class="plan-card"><img src="img/shutterstock_1143280904.jpeg" alt="企業團體旅遊"><div class="plan-body"><h3>企業團體</h3><ul><li>客製化團體行程，凝聚團隊向心力</li><li>彈性預算規劃，專屬服務最到位</li></ul><a href="#booking" class="btn btn-gold btn-card">了解更多 <span>›</span></a></div></article></div></div></div></section>
@@ -79,6 +79,21 @@
                     <label for="destination">預計前往</label><select id="destination" class="form-select"><option selected>請選擇</option><option>日本</option><option>韓國</option></select></div><div class="col-md-6"><label for="people">旅遊人數</label><select id="people" class="form-select"><option selected>請選擇</option><option>2 人</option><option>3–5 人</option><option>6 人以上</option></select></div><div class="col-12"><a href="about.html" type="submit" class="btn btn-gold btn-submit">限時免費｜預約專屬旅遊顧問 <span>›</span></a></div></div><p class="privacy">🔒 我們重視您的隱私，您的資料僅供行程規劃與聯繫使用，絕不會外洩。</p></form></div></div></div></section>
   </main><script src="js/bootstrap.bundle.min.js"></script>
   <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18568323202/XFpcCKTP17cdEILBiJZF',
+        'value': 1.0,
+        'currency': 'TWD',
+        'event_callback': callback
+      });
+      return false;
+    }
+
     //addEventListener效果
     var abc = document.querySelector(".btnstyle");
     abc.addEventListener(
