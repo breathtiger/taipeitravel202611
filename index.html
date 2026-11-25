@@ -15,63 +15,6 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
   </script>
-  <!--Google Ads With Google Tag Manager (GTM) -->
-  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NMGMDV99"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  </script>
-  <!-- Meta Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1275451692535519');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1275451692535519&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Meta Pixel Code -->
-  <!-- LINE Tag Base Code -->
-  <!-- Do Not Modify -->
-  <script>
-  (function(g,d,o){
-    g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};
-    var h='https://d.line-scdn.net';
-    var s=d.createElement('script');s.async=1;
-    s.src=o||h+'/n/line_tag/public/release/v1/lt.js';
-    var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
-      })(window, document);
-  _lt('init', {
-    customerType: 'account',
-    tagId: '31e04121-0ddb-4967-9516-b4d55445c518'
-  });
-  _lt('send', 'pv', ['31e04121-0ddb-4967-9516-b4d55445c518']);
-  </script>
-  <noscript>
-    <img height="1" width="1" style="display:none"
-        src="https://tr.line.me/tag.gif?c_t=lap&t_id=31e04121-0ddb-4967-9516-b4d55445c518&e=pv&noscript=1" />
-  </noscript>
-  <!-- End LINE Tag Base Code -->
-  <!-- 以下為dcard pixel code -->
-    <script>
-    window.dadk =
-        window.dadk ||
-        function dadk() {
-        window.dadk.queue.push(Array.from(arguments));
-        };
-    window.dadk.queue = window.dadk.queue || [];
-
-    window.dadk('init', 'ZLDJDIrRB7dZLuJfHV5Aw');
-    window.dadk('track', 'PageView');
-    </script>
 </head>
 <body>
   <header class="site-header fixed-top"><nav class="navbar navbar-expand-lg navbar-dark container py-2 py-lg-0">
@@ -123,64 +66,39 @@
               <div class="row g-3">
                 <div class="col-md-6">
                   <label for="name">聯絡姓名</label>
-                  <input id="name" class="form-control" placeholder="請輸入您的姓名"></div>
-                  <div class="col-md-6">
-                    <label for="phone">電話</label>
-                    <input id="phone" class="form-control" placeholder="請輸入手機號碼">
-                  </div>
-                  <div class="col-md-6">
-                    <label for="destination">預計前往</label><select id="destination" class="form-select"><option selected>請選擇</option><option>日本</option><option>韓國</option></select></div><div class="col-md-6"><label for="people">旅遊人數</label><select id="people" class="form-select"><option selected>請選擇</option><option>2 人</option><option>3–5 人</option><option>6 人以上</option></select></div><div class="col-12"><a href="about.html" type="submit" class="btn btn-gold btn-submit">限時免費｜預約專屬旅遊顧問 <span>›</span></a></div></div><p class="privacy">🔒 我們重視您的隱私，您的資料僅供行程規劃與聯繫使用，絕不會外洩。</p></form></div></div></div></section>
+                  <input id="name" class="form-control" placeholder="請輸入您的姓名">
+                </div>
+                <div class="col-md-6">
+                  <label for="phone">電話</label>
+                  <input id="phone" class="form-control" placeholder="請輸入手機號碼">
+                </div>
+                <div class="col-md-6">
+                  <label for="destination">預計前往</label>
+                  <select id="destination" class="form-select">
+                    <option selected>請選擇</option>
+                    <option>日本</option>
+                    <option>韓國</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="people">旅遊人數</label>
+                  <select id="people" class="form-select">
+                    <option selected>請選擇</option>
+                    <option>2 人</option>
+                    <option>3–5 人</option>
+                    <option>6 人以上</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <a href="about.html" type="submit" class="btn btn-gold btn-submit">限時免費｜預約專屬旅遊顧問 <span>›</span></a>
+                </div>
+              </div>
+              <p class="privacy">🔒 我們重視您的隱私，您的資料僅供行程規劃與聯繫使用，絕不會外洩。</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main><script src="js/bootstrap.bundle.min.js"></script>
-  <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-        'send_to': 'AW-18568323202/XFpcCKTP17cdEILBiJZF',
-        'value': 1.0,
-        'currency': 'TWD',
-        'event_callback': callback
-      });
-      return false;
-    }
-
-    //addEventListener效果
-    var abc = document.querySelector(".btnstyle");
-    abc.addEventListener(
-      "click",function () {
-
-        gtag("event", "add_to_cart", {
-          currency: "新台幣",
-          value: 1234,
-          items: [
-            {
-              item_id: "SKU_12345",
-              item_name: "Stan and Friends Tee",
-              affiliation: "Google Merchandise Store",
-              coupon: "SUMMER_FUN",
-              discount: 2.22,
-              index: 0,
-              item_brand: "Google",
-              item_category: "Apparel",
-              item_category2: "Adult",
-              item_category3: "Shirts",
-              item_category4: "Crew",
-              item_category5: "Short sleeve",
-              item_list_id: "related_products",
-              item_list_name: "Related Products",
-              item_variant: "green",
-              location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-              price: 10.01,
-              google_business_vertical: "retail",
-              quantity: 3
-            }
-          ]
-        });
-
-      },false
-    );
-  </script>
-</body></html>
+</body>
+</html>
